@@ -1,4 +1,4 @@
-# 📘 Project 1 – Coding Ninjas Website (Frontend Practice)
+# 📘 Project 2 – Coding Ninjas Website (Frontend Practice)
 
 This project is part of my **Learning Frontend** repository and focuses on building a **multi-page static website** using **pure HTML**. The project simulates an educational platform similar to *Coding Ninjas*, featuring course listings, user registration, login, contact information, and an admin dashboard.
 
