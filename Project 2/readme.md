@@ -44,15 +44,14 @@ Project-2/
 │
 ├── index.html
 ├── style.css
-├── images/
-│   ├── rd.png
-│   ├── ba.png.jpeg
-│   ├── td.png
-│   ├── vk.png
-│   ├── rs.png
-│   ├── rj.png.jpeg
-│   ├── background.png
-│   └── bat.png
+├── rd.png
+├── ba.png.jpeg
+├── td.png
+├── vk.png
+├── rs.png
+├── rj.png.jpeg
+├── background.png
+└── bat.png
 ```
 
 
