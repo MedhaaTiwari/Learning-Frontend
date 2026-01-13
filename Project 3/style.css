@@ -1,0 +1,341 @@
+/* =========================
+   GLOBAL RESET
+========================= */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* =========================
+     BASE STYLES
+  ========================= */
+  body {
+    font-family: "Georgia", serif;
+    background: url(bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #222;
+  }
+  
+  /* =========================
+     MAIN LAYOUT
+  ========================= */
+  main {
+    margin-left: 300px; /* adjusted for wider sidebar */
+    padding: 40px 60px;
+  }
+  
+  /* =========================
+     SIDEBAR
+  ========================= */
+  article:first-of-type {
+    position: fixed;
+    left: 20px;
+    top: 20px;
+    bottom: 20px;
+    width: 260px;
+    background: #000;
+    border-radius: 28px;
+    padding: 30px 20px;
+    color: #fff;
+  }
+  
+  .image-container1 img {
+    width: 90px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .image-container1 figcaption {
+    text-align: center;
+    margin: 12px 0 30px;
+    font-size: 18px;
+  }
+  
+  /* Sidebar Links */
+  article:first-of-type a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 12px 14px;
+    border-radius: 8px;
+    margin-bottom: 6px;
+    transition: color 0.3s ease,
+                background 0.3s ease,
+                transform 0.2s ease;
+  }
+  
+  article:first-of-type a:hover {
+    color: #9fdc8a;
+    background: rgba(255, 255, 255, 0.12);
+    transform: translateX(6px);
+  }
+  
+  /* =========================
+     HEADER
+  ========================= */
+  header {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+    padding: 0 40px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  
+  header h1 {
+    grid-column: 2;
+    text-align: center;
+    font-size: 42px;
+    text-decoration: underline;
+    margin: 0;
+  }
+  
+  header form {
+    grid-column: 3;
+    justify-self: end;
+  }
+  
+  header input {
+    padding: 8px 16px;
+    border-radius: 20px;
+    border: 2px solid #9fdc8a;
+    outline: none;
+  }
+  
+  /* =========================
+     HEADING HOVER EFFECTS
+  ========================= */
+  h1,
+  h2 {
+    width: 100%;
+    text-align: center;
+    margin: 40px auto 20px;
+    text-decoration: underline;
+    transition: transform 0.3s ease,
+                letter-spacing 0.3s ease;
+  }
+  
+  h1:hover,
+  h2:hover {
+    transform: scale(1.08);
+    letter-spacing: 1px;
+  }
+  
+  /* =========================
+     GRAPH CARD
+  ========================= */
+  .image-container2 img {
+    width: 1000px;
+    height: 400px;
+    display: block;
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 20px;
+    padding: 20px;
+  }
+  
+  /* =========================
+     DASHBOARD DATA
+  ========================= */
+  #data {
+    max-width: 900px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+  }
+  
+  #data h4 {
+    display: none;
+  }
+  
+  #data pre {
+    background: #fff;
+    border-radius: 18px;
+    padding: 20px;
+    font-size: 18px;
+    line-height: 1.4;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease,
+                box-shadow 0.3s ease,
+                background 0.4s ease;
+  }
+  
+  #data pre::before {
+    display: block;
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 8px;
+    font-weight: 600;
+  }
+  
+  #data pre:nth-of-type(1)::before { content: "Total Revenue"; }
+  #data pre:nth-of-type(2)::before { content: "Total Transactions"; }
+  #data pre:nth-of-type(3)::before { content: "Total Likes"; }
+  #data pre:nth-of-type(4)::before { content: "Total Users"; }
+  
+  #data pre:nth-of-type(1) { background: #e6f4e8; }
+  #data pre:nth-of-type(2) { background: #f6efe2; }
+  #data pre:nth-of-type(3) { background: #f6e3e3; }
+  #data pre:nth-of-type(4) { background: #e7e9f5; }
+  
+  #data pre:hover {
+    transform: translateY(-8px) scale(1.03);
+    background: linear-gradient(135deg, #f8cdda, #c6e7ff);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* =========================
+     USER TABLE
+  ========================= */
+  #users table {
+    width: 100%;
+    max-width: 900px;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background: #fff;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+  
+  #users th {
+    background: #b8abab;
+    padding: 14px;
+    text-align: left;
+  }
+  
+  #users td {
+    padding: 14px;
+  }
+  
+  #users tr:nth-child(even) {
+    background: #f1f1f1;
+  }
+  
+  /* =========================
+     SCHEDULE
+  ========================= */
+  #schedule {
+    background: #fff;
+    border-radius: 20px;
+    padding: 20px;
+    max-width: 900px;
+    margin: 30px auto;
+  }
+  
+  #schedule h2 {
+    margin-top: 10px;
+  }
+  
+  #schedule h4 {
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  
+  #schedule pre {
+    margin-top: 6px;
+    padding-left: 12px;
+    border-left: 4px solid #8bcf8b;
+    color: #777;
+  }
+  
+  /* =========================
+     CONTACT
+  ========================= */
+  #contactheader {
+    text-align: center;
+  }
+  
+  #contact {
+    max-width: 1100px;
+    margin: 60px auto;
+    display: flex;
+    gap: 30px;
+    align-items: stretch;
+  }
+  
+  #contact iframe {
+    width: 48%;
+    height: 420px;
+    border-radius: 20px;
+  }
+  
+  #contact form {
+    width: 48%;
+    background: #fff;
+    border-radius: 20px;
+    padding: 30px;
+  }
+  
+  #contact form label {
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 20px;
+  }
+  
+  #contact input,
+  #contact textarea {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+  }
+  
+  #contact input[type="submit"] {
+    background: #9fdc8a;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background 0.3s ease;
+  }
+  
+  #contact input[type="submit"]:hover {
+    background: #7bcf6a;
+  }
+  
+  /* =========================
+     FOOTER
+  ========================= */
+  footer {
+    background: #000;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 60px;
+  }
+  
+  footer img {
+    margin: 0 8px;
+  }
+  
+  /* =========================
+     RESPONSIVE
+  ========================= */
+  @media (max-width: 900px) {
+    #data {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  
+    #contact {
+      flex-direction: column;
+    }
+  
+    #contact iframe,
+    #contact form {
+      width: 100%;
+    }
+  }
+  
+  @media (max-width: 500px) {
+    #data {
+      grid-template-columns: 1fr;
+    }
+  }
+  
