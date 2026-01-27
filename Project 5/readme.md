@@ -84,4 +84,51 @@ Rather than building isolated components, this project brings together multiple 
 ---
 
 ## 📁 Project Structure
+├── index.html # Main HTML file
+├── index.css # Complete styling and responsive logic
+├── script.js # JavaScript interactions
+├── Images (root)
+│ ├── hero-bg.jpg
+│ ├── banner-bg.jpg
+│ ├── plan-bg.png
+│ ├── pic.png
+│ ├── logo.jpg
+│ ├── testimonials-01.jpg
+│ ├── testimonials-02.png
+│ └── testimonials-03.jpg
+
+## 🎨 Styling & Design Approach
+
+- Desktop-first design with mobile optimizations
+- Media queries for tablet and phone layouts
+- CSS variables for consistent theming
+- Section-based CSS organization
+- Animations used only where they enhance user experience
+
+---
+
+## 📱 Responsiveness
+
+The website is fully responsive and optimized for:
+
+- Desktop screens
+- Tablets
+- Mobile devices (≤ 576px)
+
+Mobile-specific improvements include:
+- Hamburger navigation menu
+- Stacked layouts
+- Reduced animations for better performance
+- Touch-friendly spacing
+
+---
+
+## ⚙️ JavaScript Functionality
+
+- Testimonial slider navigation
+- Mobile navigation toggle
+- Class-based state management
+- Clean, readable event-driven logic
+
+---
 
