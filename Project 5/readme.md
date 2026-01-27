@@ -83,20 +83,24 @@ Rather than building isolated components, this project brings together multiple 
 
 ---
 
-## 📁 Project Structure
+### 📂 Project Structure
+```text
 .
-├── index.html          # Main entry point
-├── index.css           # Global styles & responsive logic
-├── script.js           # UI logic & interactions
-└── images/             # Visual assets
+├── index.html
+├── index.css
+├── script.js
+└── images/
     ├── banner-bg.jpg
     ├── hero-bg.jpg
     ├── logo.jpg
     ├── pic.png
     ├── plan-bg.png
-    ├── testimonials-01.jpg
-    ├── testimonials-02.png
-    └── testimonials-03.jpg
+    └── testimonials/
+        ├── testimonials-01.jpg
+        ├── testimonials-02.png
+        └── testimonials-03.jpg
+
+
 ## 🎨 Styling & Design Approach
 
 - Desktop-first design with mobile optimizations
