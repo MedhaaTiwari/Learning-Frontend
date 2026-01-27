@@ -82,25 +82,6 @@ Rather than building isolated components, this project brings together multiple 
 - **Bootstrap 5** – Utility classes and responsive helpers  
 
 ---
-
-### 📂 Project Structure
-```text
-.
-├── index.html
-├── index.css
-├── script.js
-└── images/
-    ├── banner-bg.jpg
-    ├── hero-bg.jpg
-    ├── logo.jpg
-    ├── pic.png
-    ├── plan-bg.png
-    └── testimonials/
-        ├── testimonials-01.jpg
-        ├── testimonials-02.png
-        └── testimonials-03.jpg
-
-
 ## 🎨 Styling & Design Approach
 
 - Desktop-first design with mobile optimizations
@@ -135,4 +116,24 @@ Mobile-specific improvements include:
 - Clean, readable event-driven logic
 
 ---
+
+
+
+### 📂 Project Structure
+```text
+.
+├── index.html
+├── index.css
+├── script.js
+└── images/
+    ├── banner-bg.jpg
+    ├── hero-bg.jpg
+    ├── logo.jpg
+    ├── pic.png
+    ├── plan-bg.png
+    └── testimonials/
+        ├── testimonials-01.jpg
+        ├── testimonials-02.png
+        └── testimonials-03.jpg
+
 
