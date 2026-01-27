@@ -126,14 +126,13 @@ Mobile-specific improvements include:
 ├── index.css
 ├── script.js
 └── images/
-    ├── banner-bg.jpg
-    ├── hero-bg.jpg
-    ├── logo.jpg
-    ├── pic.png
-    ├── plan-bg.png
-    └── testimonials/
-        ├── testimonials-01.jpg
-        ├── testimonials-02.png
-        └── testimonials-03.jpg
+├── banner-bg.jpg
+├── hero-bg.jpg
+├── logo.jpg
+├── pic.png
+├── plan-bg.png
+├── testimonials-01.jpg
+├── testimonials-02.png
+└── testimonials-03.jpg
 
 
