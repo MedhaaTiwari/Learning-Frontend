@@ -84,19 +84,19 @@ Rather than building isolated components, this project brings together multiple 
 ---
 
 ## 📁 Project Structure
-├── index.html        # Main HTML file
-├── index.css         # Complete styling and responsive logic
-├── script.js         # JavaScript interactions
-├── images/           # Image assets
-│   ├── hero-bg.jpg
-│   ├── banner-bg.jpg
-│   ├── plan-bg.png
-│   ├── pic.png
-│   ├── logo.jpg
-│   ├── testimonials-01.jpg
-│   ├── testimonials-02.png
-│   └── testimonials-03.jpg
-
+.
+├── index.html          # Main entry point
+├── index.css           # Global styles & responsive logic
+├── script.js           # UI logic & interactions
+└── images/             # Visual assets
+    ├── banner-bg.jpg
+    ├── hero-bg.jpg
+    ├── logo.jpg
+    ├── pic.png
+    ├── plan-bg.png
+    ├── testimonials-01.jpg
+    ├── testimonials-02.png
+    └── testimonials-03.jpg
 ## 🎨 Styling & Design Approach
 
 - Desktop-first design with mobile optimizations
